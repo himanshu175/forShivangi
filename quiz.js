@@ -14,26 +14,26 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "What does HTML stand for?",
-        imgSrc : "img/html.png",
+        imgSrc : "html.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         correct : "A"
     },{
         question : "What does CSS stand for?",
-        imgSrc : "img/css.png",
+        imgSrc : "css.png",
         choiceA : "Wrong",
         choiceB : "Correct",
         correct : "B"
     },{
         question : "What does JS stand for?",
-        imgSrc : "img/js.png",
+        imgSrc : "js.png",
         choiceA : "Wrong",
         choiceB : "Correct",
         correct : "B"
     },
     {
         question : "kya himanshu ko ladkiyo ke kapdo ke baare mein knowledge hai",
-        // imgSrc : "img/js.png",
+        imgSrc : "js.png",
         choiceA : "H",
         choiceB : "ni",
         correct : "B"
@@ -144,11 +144,11 @@ function scoreRender(){
     const scorePerCent = Math.round(100 * score/questions.length);
     
     // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-              (scorePerCent >= 60) ? "img/4.png" :
-              (scorePerCent >= 40) ? "img/3.png" :
-              (scorePerCent >= 20) ? "img/2.png" :
-              "img/1.png";
+    let img = (scorePerCent >= 80) ? "5.png" :
+              (scorePerCent >= 60) ? "4.png" :
+              (scorePerCent >= 40) ? "3.png" :
+              (scorePerCent >= 20) ? "2.png" :
+              "1.png";
     
     scoreDiv.innerHTML = "<img src="+ img +">";
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
