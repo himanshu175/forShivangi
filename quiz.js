@@ -13,26 +13,51 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "What does HTML stand for?",
+        question : "maine jo bhi aapke baare m jana hai, wo sab yha hai..aapse permission jaiye aade badne ki?",
         imgSrc : "html.png",
-        choiceA : "Correct",
-        choiceB : "Wrong",
+        choiceA : "H pr ku",
+        choiceB : "Ni",
         correct : "A"
     },{
-        question : "What does CSS stand for?",
+        question : "MAINE AAPSE BAAT KARKE JANA.. jitni aap bahar se cute hai utni hi andar se sundar hain",
         imgSrc : "css.png",
         choiceA : "Wrong",
         choiceB : "Correct",
         correct : "B"
     },{
-        question : "What does JS stand for?",
+        question : "MAINE AAPSE BAAT KARKE JANA.. jo aapki UTSUKTA hai kisi bhi chiz ko jaanne ki m uss ada ka fan hu",
         imgSrc : "js.png",
         choiceA : "Wrong",
         choiceB : "Correct",
         correct : "B"
     },
     {
-        question : "kya himanshu ko ladkiyo ke kapdo ke baare mein knowledge hai",
+        question : "MAINE AAPSE BAAT KARKE JANA.. aap jise like karti hai uske sath pura din bhi bitana aap mind nhi karti",
+        imgSrc : "js.png",
+        choiceA : "H",
+        choiceB : "ni",
+        correct : "B"
+    },{
+        question : "MAINE AAPSE BAAT KARKE JANA.. aapka dil bilkul vaccum cleaner ki taraf saaf hai",
+        imgSrc : "js.png",
+        choiceA : "Wrong",
+        choiceB : "Correct",
+        correct : "B"
+    },{
+        question : "Ye toh bachpan se hi dekh rha.. aap dikhti bahut MAASUM aur had se jyada cute ho,
+        imgSrc : "js.png",
+        choiceA : "H",
+        choiceB : "ni",
+        correct : "B"
+    },{
+        question : "MAINE AAPSE BAAT KARKE JANA.. aapse jab bhi puchho ki aap kya kar rahi toh aapka reply hota hai",
+        imgSrc : "js.png",
+        choiceA : "Bethe hai",
+        choiceB : "100% yhi rhta hai",
+        correct : "A"
+    },
+    {
+        question : "MAINE AAPSE BAAT KARKE JANA.. aap jise like karti hai uske sath pura din bhi bitana aap mind nhi karti",
         imgSrc : "js.png",
         choiceA : "H",
         choiceB : "ni",
