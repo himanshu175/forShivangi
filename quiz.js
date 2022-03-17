@@ -44,7 +44,7 @@ let questions = [
         choiceB : "Correct",
         correct : "B"
     },{
-        question : "Ye toh bachpan se hi dekh rha.. aap dikhti bahut MAASUM aur had se jyada cute ho,
+        question : "Ye toh bachpan se hi dekh rha.. aap dikhti bahut MAASUM aur had se jyada cute ho",
         imgSrc : "js.png",
         choiceA : "H",
         choiceB : "ni",
