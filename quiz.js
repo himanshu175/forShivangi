@@ -13,56 +13,90 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "maine jo bhi aapke baare m jana hai, wo sab yha hai..aapse permission jaiye aade badne ki?",
-        imgSrc : "html.png",
-        choiceA : "H pr ku",
-        choiceB : "Ni",
-        correct : "A"
-    },{
-        question : "MAINE AAPSE BAAT KARKE JANA.. jitni aap bahar se cute hai utni hi andar se sundar hain",
-        imgSrc : "css.png",
-        choiceA : "Wrong",
-        choiceB : "Correct",
-        correct : "B"
-    },{
-        question : "MAINE AAPSE BAAT KARKE JANA.. jo aapki UTSUKTA hai kisi bhi chiz ko jaanne ki m uss ada ka fan hu",
-        imgSrc : "js.png",
-        choiceA : "Wrong",
-        choiceB : "Correct",
-        correct : "B"
-    },
-    {
-        question : "MAINE AAPSE BAAT KARKE JANA.. aap jise like karti hai uske sath pura din bhi bitana aap mind nhi karti",
-        imgSrc : "js.png",
-        choiceA : "H",
-        choiceB : "ni",
-        correct : "B"
-    },{
-        question : "MAINE AAPSE BAAT KARKE JANA.. aapka dil bilkul vaccum cleaner ki taraf saaf hai",
-        imgSrc : "js.png",
-        choiceA : "Wrong",
-        choiceB : "Correct",
-        correct : "B"
-    },{
-        question : "Ye toh bachpan se hi dekh rha.. aap dikhti bahut MAASUM aur had se jyada cute ho",
-        imgSrc : "js.png",
-        choiceA : "H",
-        choiceB : "ni",
-        correct : "B"
-    },{
-        question : "MAINE AAPSE BAAT KARKE JANA.. aapse jab bhi puchho ki aap kya kar rahi toh aapka reply hota hai",
-        imgSrc : "js.png",
-        choiceA : "Bethe hai",
-        choiceB : "100% yhi rhta hai",
-        correct : "A"
-    },
-    {
-        question : "MAINE AAPSE BAAT KARKE JANA.. aap jise like karti hai uske sath pura din bhi bitana aap mind nhi karti",
-        imgSrc : "js.png",
-        choiceA : "H",
-        choiceB : "ni",
-        correct : "B"
-    }
+    question:
+      "aapko 2 OPTIONS m se koi bhi ek pr click karna jo aapko sai lage...",
+    imgSrc: "js.png",
+    choiceA: "Abhi k liye second option click de",
+    choiceB: "okay",
+    correct: "B",
+  },
+  {
+    question: "Aap bahut MAASUM si aur had se jyada cute ho",
+    imgSrc: "js.png",
+    choiceA: "H aur chant bhi bahut hun m",
+    choiceB: "han woh toh hai",
+    correct: "A",
+  },
+  {
+    question:
+      "MAINE AAPSE BAAT KARKE JANA.. jitni aap bahar se cute hai utni hi andar se sundar hain",
+    imgSrc: "js.png",
+    choiceA: "mujhe(shivangi) bhi pta h wo",
+    choiceB: "kuch alag batao",
+    correct: "B",
+  },
+  {
+    question:
+      "MAINE AAPSE BAAT KARKE JANA.. jo aapki UTSUKTA hai kisi bhi chiz ko jaanne ki m uss ada ka fan hu",
+    imgSrc: "js.png",
+    choiceA: "aise hi fan bane rhna",
+    choiceB: "aur gwalior wali video ke fan ?",
+    correct: "A",
+  },
+  {
+    question:
+      "MAINE AAPSE BAAT KARKE JANA.. aap jise like karti hai uske sath pura din bhi bitana aap mind nhi karti",
+    imgSrc: "js.png",
+    choiceA: "han 100%",
+    choiceB: "par m tumahe sath toh ni bitati pura din",
+    correct: "A",
+  },
+  {
+    question: "Aap bahut MAASUM si aur had se jyada cute ho",
+    imgSrc: "js.png",
+    choiceA: "H aur chant bhi bahut hun m",
+    choiceB: "han woh toh hai",
+    correct: "A",
+  },
+  {
+    question:
+      "MAINE AAPSE BAAT KARKE JANA.. aapka dil bilkul vaccum cleaner ki taraf saaf hai",
+    imgSrc: "js.png",
+    choiceA: "bilkul bilkul",
+    choiceB: "secrets karugi tumare sath share",
+    correct: "B",
+  },
+  {
+    question:
+      "Wo din kab aayga jab aap meri bhi baatein manegi...haaye soch ke hi kitna sukoon mil ra",
+    imgSrc: "js.png",
+    choiceA: "han wo din bhi aayga",
+    choiceB: "mai aane bhi dungi kya",
+    correct: "B",
+  },
+  {
+    question:
+      "sorry yha m khud ke baare m soch rha...par m aapke sath tima bita ke apni saari thakaan bhool jata hun",
+    imgSrc: "js.png",
+    choiceA: "toh fir DATE pakki kare",
+    choiceB: "100% DATE DONE aapke sath himanshu",
+    correct: "B",
+  },
+  {
+    question: "Thanks shivangi, for being my friend",
+    imgSrc: "js.png",
+    choiceA: "u too himanshu!!",
+    choiceB: "thanks himanshu!",
+    correct: "B",
+  },
+  {
+    question:
+      "aur bhi bahut kuch h share karne ko karunga aage..agr aap permisson de toh, tab tak k liye LIKE, SHARE, SUNSCRIBE kare",
+    imgSrc: "js.png",
+    choiceA: "puchhne ki baat h",
+    choiceB: "han next quiz jaldi lana..",
+    correct: "B",
+  },
 ];
 
 // create some variables
