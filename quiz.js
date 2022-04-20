@@ -12,7 +12,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 
 // create our questions
 let questions = [
-    {
+   {
     question:
       "aapko 2 OPTIONS m se koi bhi ek pr click karna jo aapko sai lage...",
     imgSrc: "js.png",
@@ -22,7 +22,7 @@ let questions = [
   },
   {
     question: "Aap bahut MAASUM si aur had se jyada cute ho",
-    imgSrc: "js.png",
+    imgSrc: "S3.png",
     choiceA: "H aur chant bhi bahut hun m",
     choiceB: "han woh toh hai",
     correct: "A",
@@ -30,7 +30,7 @@ let questions = [
   {
     question:
       "MAINE AAPSE BAAT KARKE JANA.. jitni aap bahar se cute hai utni hi andar se sundar hain",
-    imgSrc: "js.png",
+    imgSrc: "S2.png",
     choiceA: "mujhe(shivangi) bhi pta h wo",
     choiceB: "kuch alag batao",
     correct: "B",
@@ -38,7 +38,7 @@ let questions = [
   {
     question:
       "MAINE AAPSE BAAT KARKE JANA.. jo aapki UTSUKTA hai kisi bhi chiz ko jaanne ki m uss ada ka fan hu",
-    imgSrc: "js.png",
+    imgSrc: "S4.png",
     choiceA: "aise hi fan bane rhna",
     choiceB: "aur gwalior wali video ke fan ?",
     correct: "A",
@@ -46,22 +46,15 @@ let questions = [
   {
     question:
       "MAINE AAPSE BAAT KARKE JANA.. aap jise like karti hai uske sath pura din bhi bitana aap mind nhi karti",
-    imgSrc: "js.png",
+    imgSrc: "PET.jpg",
     choiceA: "han 100%",
     choiceB: "par m tumahe sath toh ni bitati pura din",
     correct: "A",
   },
   {
-    question: "Aap bahut MAASUM si aur had se jyada cute ho",
-    imgSrc: "js.png",
-    choiceA: "H aur chant bhi bahut hun m",
-    choiceB: "han woh toh hai",
-    correct: "A",
-  },
-  {
     question:
       "MAINE AAPSE BAAT KARKE JANA.. aapka dil bilkul vaccum cleaner ki taraf saaf hai",
-    imgSrc: "js.png",
+    imgSrc: "S0.jpg",
     choiceA: "bilkul bilkul",
     choiceB: "secrets karugi tumare sath share",
     correct: "B",
@@ -69,7 +62,7 @@ let questions = [
   {
     question:
       "Wo din kab aayga jab aap meri bhi baatein manegi...haaye soch ke hi kitna sukoon mil ra",
-    imgSrc: "js.png",
+    imgSrc: "S1.jpg",
     choiceA: "han wo din bhi aayga",
     choiceB: "mai aane bhi dungi kya",
     correct: "B",
@@ -77,14 +70,14 @@ let questions = [
   {
     question:
       "sorry yha m khud ke baare m soch rha...par m aapke sath tima bita ke apni saari thakaan bhool jata hun",
-    imgSrc: "js.png",
+    imgSrc: "S11.jpg",
     choiceA: "toh fir DATE pakki kare",
     choiceB: "100% DATE DONE aapke sath himanshu",
     correct: "B",
   },
   {
     question: "Thanks shivangi, for being my friend",
-    imgSrc: "js.png",
+    imgSrc: "S8.jpg",
     choiceA: "u too himanshu!!",
     choiceB: "thanks himanshu!",
     correct: "B",
@@ -92,7 +85,7 @@ let questions = [
   {
     question:
       "aur bhi bahut kuch h share karne ko karunga aage..agr aap permisson de toh, tab tak k liye LIKE, SHARE, SUNSCRIBE kare",
-    imgSrc: "js.png",
+    imgSrc: "S12.jpg",
     choiceA: "puchhne ki baat h",
     choiceB: "han next quiz jaldi lana..",
     correct: "B",
