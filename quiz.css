@@ -3,6 +3,7 @@ body {
     height: 100%;
   font-size: 20px;
   font-family: monospace;
+  padding: 0 10px;
 }
 
 #container {
@@ -14,18 +15,43 @@ body {
   box-shadow: 0px 5px 15px 0px;
   position: relative;
 }
+@media (min-height: 445px) {
+  #container {
+    width: 100%;
+    height: 44vh;
+  }
+  #start {
+    font-size: 2em !important;
+  font-weight: bolder;
+  }
+  #question {
+   min-width: 700px !important;
+   font-size: 2rem;
+  }
+  #choices {
+    width: 100% !important;
+    top: 210px !important;
+  }
+  .choice {
+    width: 46% !important;
+    margin: 20px 0 50px 0;
+  }
+  #A {
+    margin-left: 30px;
+  }
+}
 #start {
   font-size: 1.5em;
   font-weight: bolder;
   word-break: break-all;
-  width: 350px;
+  width: 450px;
   height: 100px;
   line-height: 100px;
   border: 2px solid lightgrey;
   text-align: center;
   cursor: pointer;
   position: absolute;
-  left: 150px;
+  left: 260px;
   top: 100px;
   color: lightgrey;
 }
@@ -69,7 +95,8 @@ body {
 }
 .choice {
   display: inline-block;
-  width: 135px;
+  width: auto;
+  padding: 5px;
   text-align: center;
   border: 1px solid grey;
   border-radius: 5px;
@@ -149,6 +176,4 @@ body {
   font-weight: bold;
   text-align: center;
 }
-@media (max-width: px) {
-  
-}
+
